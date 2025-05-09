@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nisa Amalia Fikri</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+</head>
+
+<body>
+    <header class="header">      
+        <div class="navigation">            
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <ul>
+                <li class="list active">
+                    <a href="#home">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#about">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <span class="text">About</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#services">
+                        <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                        <span class="text">Services</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#projects">
+                        <span class="icon"><ion-icon name="browsers-outline"></ion-icon></span>
+                        <span class="text">Projects</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#contact">
+                        <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
+                        <span class="text">Contact</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1> 
+                Hi, I'm <span>Sasha</span>
+            </h1>
+            <h3>
+                CEO of <span>SashArt</span>
+            </h3>
+            <p>
+                SashArt is a creative company that offers a wide range of artistic services. We specialize in art commissions, Live2D model commissions, design services, and website creation. In addition to digital work, we also craft handmade bead bracelets and phone strap beads, combining creativity with personal expression in every piece.   
+            </p>
+            <div class="social-icons">
+                <a href="https://github.com/Shizuken">
+                    <i class="bx bxl-github"*></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nisa-fikri-05432b2a7/">
+                    <i class="bx bxl-linkedin-square"*></i>
+                </a>
+                <a href="https://www.instagram.com/neasafykree/?__d=11">
+                    <i class="bx bxl-instagram-alt"*></i>
+                </a>
+                <a href="https://x.com/neasafykree">
+                    <i class="bx bxl-twitter"*></i>
+                </a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">
+                    Hire
+                </a>
+                <a href="#contact" class="btn">
+                    Contact
+                </a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="sasha.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="sasha1.jpg" alt="">            
+        </div>
+        <div class="about-content">
+            <h2> 
+                About <span>Me</span>
+            </h2>
+            <p>
+                Hello! I'm Sasha, the creator behind SashArt — a brand built with passion for creativity and expression. At SashArt, I offer a variety of artistic services including art commissions, Live2D model creation, design commissions, and website development. I also handcraft custom bead bracelets and phone strap charms, perfect for adding a personal touch to your everyday style.
+            </p>
+            <p>
+                Whether it's digital or handmade, every project I take on is made with care, detail, and love for art. My mission is to help others bring their ideas to life — one piece at a time.
+            </p>
+            <p>
+                Feel free to check out my work, and don’t hesitate to reach out if you’d like to collaborate!
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>        
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">
+            Services
+        </h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <i class='bx bx-paint'></i>
+                    <h4>
+                        Art Commissions
+                    </h4>
+                    <p>
+                        Custom digital illustrations tailored to your vision. Whether it's original characters, portraits, or fan art, every piece is drawn with attention to detail and creative passion. Live2D model commissions are also available for VTubers and creators looking to bring their characters to life.                    </p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <i class='bx bx-loader-circle'></i>
+                    <h4>
+                        Beads Collections
+                    </h4>
+                    <p>
+                        Handcrafted bead bracelets and phone straps made with love and care. Choose from our ready-made collections or request a custom design that reflects your personality, mood, or aesthetic. Perfect as gifts or personal accessories.                    </p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <i class='bx bx-laptop'></i>
+                    <h4>
+                        Design & Web Services
+                    </h4>
+                    <p>
+                        From UI/UX design to full website development, we provide clean, modern, and responsive designs for your personal or business needs. We also offer brand design, logos, and layouts to help you establish a strong visual identity online.                    </p>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!-- [Previous header and sections remain the same until projects section] -->
+
+    <section class="projects" id="projects">
+        <h2 class="heading">
+            Projects
+        </h2>      
+
+        <div class="projects-categories">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="art">Art</button>
+            <button class="category-btn" data-category="beads">Beads</button>
+            <button class="category-btn" data-category="designweb">Design & Web</button>
+        </div>
+
+        <div class="project-grid">    
+            <div class="projects-box">
+                <div class="projects-card" data-category="art">
+                    <img src="harris caine.png" alt="Harris Caine Art">
+                    <h3>Harris Caine</h3>
+                    <p>
+                        One of my clients asked me to draw a chibi version of Harris Caine, a rising male VTuber. After putting in a lot of effort, I succeeded in capturing his adorable charm by using techniques like exaggerated facial features, dynamic posing, and soft shading to emphasize his cuteness.                
+                    </p>
+                    <div class="btn">Review Project</div>
+                </div>
+                <div class="projects-card" data-category="art">
+                    <img src="mikazuki arion.png" alt="Mikazuki Arion Art">
+                    <h3>Mikazuki Arion</h3>
+                    <p>
+                        For this project, I had the exciting opportunity to illustrate Mikazuki Arion, a dynamic and charismatic VTuber known for his vibrant personality and striking design. My goal was to capture his essence by blending his signature aesthetic—such as his celestial themed.
+                    </p>
+                    <div class="btn">Review Project</div>
+                </div>
+                <div class="projects-card" data-category="art">
+                    <img src="emu otori.png" alt="Emu Otori Art">
+                    <h3>Emu Otori</h3>
+                    <p>
+                       I wanted to capture her playful personality and signature charm, so I focused on bold, expressive lines, bright colors, and dynamic posing to bring her to life. By paying close attention to details like her twin drills, star-shaped pupils, and cheerful outfit.
+                    </p>
+                    <div class="btn">Review Project</div>
+                </div>
+                <div class="projects-card" data-category="beads">
+                    <img src="bracelet pink.png" alt="Bead Bracelets">
+                    <h3>Pink Bracelet</h3>
+                    <p>
+                       Pink bracelet using high-quality beads and elastic cord. I carefully selected varying shades of pink to add depth and dimension, incorporating tiny pearl accents for a touch of elegance. The process involved meticulous stringing and knotting to ensure durability while maintaining a soft, feminine aesthetic. 
+                    </p>
+                    <div class="btn">Review Project</div>
+                </div>
+                <div class="projects-card" data-category="beads">
+                    <img src="bracelet greenpink.png" alt="Bead Bracelets">
+                    <h3>MinSung Bracelet</h3>
+                    <p>
+                        Inspired by the beloved duo from Stray Kids, I carefully selected soft pastel green and pink beads to represent their unique energy and friendship. This bracelet not only showcases my attention to detail but also celebrates the special bond between Minho and Jisung, making it a perfect piece for Minsung enthusiasts!
+                    </p>
+                    <div class="btn">Review Project</div>
+                </div>
+                <div class="projects-card" data-category="beads">
+                    <img src="phonestrap.png" alt="Phone Straps">
+                    <h3>Phone Strap</h3>
+                    <p>
+                        Recently, I embarked on a creative project making custom bead phone straps. Using colorful beads, durable string, and a bit of patience, I carefully designed each strap to be both stylish and functional. I experimented with different patterns, textures, and charms to create unique pieces that reflect my personality—some vibrant and playful, others minimalist and sleek. 
+                    </p>
+                    <div class="btn">Review Project</div>
+                </div>
+                <div class="projects-card" data-category="designweb">
+                    <img src="gilang.png" alt="Design Example">
+                    <h3>Poster Design</h3>
+                    <p>
+                        For my high school extracurricular project, I designed a vibrant poster celebrating Indonesia’s Independence Day. The theme centered on national pride, featuring the iconic red and white colors of the Indonesian flag, symbolic imagery like the Monas (National Monument), and bold typography with the phrase 'Dirgahayu RI' (Long Live Indonesia).
+                    </p>
+                    <div class="btn">Review Project</div>
+                </div>
+                <div class="projects-card" data-category="designweb">
+                    <img src="website.png" alt="Website Design">
+                    <h3>Website Project</h3>
+                    <p>
+                        I recently developed a custom marketplace website to showcase and sell my products online. The platform features a user-friendly interface with seamless navigation, secure payment integration, and a responsive design to ensure accessibility across all devices. I focused on optimizing the customer experience with detailed product listings, an intuitive search function, and a streamlined checkout process.
+                    </p>
+                    <div class="btn">Review Project</div>
+                </div>
+                <div class="projects-card" data-category="designweb">
+                    <img src="photography.png" alt="Photography">
+                    <h3>Photo of Wild Mushroom</h3>
+                    <p>
+                        This is a photo of a wild mushroom I took while walking around my house. By considering various aspects of photography, such as composition, lighting, and focus, I was able to capture the image more effectively, enhancing its overall quality.          
+                    </p>
+                    <div class="btn">Review Project</div>
+                </div>
+            </div>   
+        </div> 
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">
+            Contact <span>Me</span>
+        </h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            
+            <div class="input-group-2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/Shizuken">
+                <i class="bx bxl-github"*></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nisa-fikri-05432b2a7/">
+                <i class="bx bxl-linkedin-square"*></i>
+            </a>
+            <a href="https://www.instagram.com/neasafykree/?__d=11">
+                <i class="bx bxl-instagram-alt"*></i>
+            </a>
+            <a href="https://x.com/neasafykree">
+                <i class="bx bxl-twitter"*></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#"> 
+                    FAQ
+                </a>
+            </li>
+            <li>
+                <a href="#services"> 
+                    Services
+                </a>
+            </li>
+            <li>
+                <a href="#about"> 
+                    About Me
+                </a>
+            </li>
+            <li>
+                <a href="#projects"> 
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a href="#contact"> 
+                    Contact
+                </a>
+            </li>
+        </ul>
+        <p class="copyright">
+            @ Nisa Amalia Fikri | All Rights Reserved
+        </p>
+    </footer>
+    
+    <script>
+        // Navigation active link
+        const navLinks = document.querySelectorAll('.list');
+        function setActiveLink() {
+            navLinks.forEach(item => item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        navLinks.forEach(item => item.addEventListener('click', setActiveLink));
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryButtons = document.querySelectorAll('.category-btn');
+            const projectCards = document.querySelectorAll('.projects-card');
+            document.querySelector('.category-btn[data-category="all"]').classList.add('active');
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const category = this.dataset.category;
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    projectCards.forEach(card => {
+                        const cardCategory = card.dataset.category;
+                        if (category === 'all' || cardCategory === category) {
+                            card.classList.remove('hidden');
+                        } else {
+                            card.classList.add('hidden');
+                        }
+                    });
+                    const projectsSection = document.getElementById('projects');
+                    projectsSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                });
+            });
+        });
+
+        // Mobile menu toggle functionality
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.querySelector('.navbar');
+        
+        if (menuIcon && navbar) {
+            menuIcon.addEventListener('click', () => {
+                navbar.classList.toggle('active');
+                menuIcon.classList.toggle('bx-x');
+            });
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>    
+</body>
+</html>
